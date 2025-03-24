@@ -1,4 +1,4 @@
-# ProfilumAI
+# profilumAI
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Fiber-009688?style=for-the-badge&logo=fiber&logoColor=white" alt="Fiber">
