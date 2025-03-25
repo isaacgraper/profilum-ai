@@ -9,4 +9,4 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
 </p>
 
-ProfilumAI is a software that integrates with Obsidian to analyze and process the user's notes. It automatically categorizes recent notes, generates concise summaries, and creates flashcards for spaced repetition. The system will also provide an API for managing and processing notes, allowing users to configure folders and export insights. In the future, it may incorporate AI for semantic analysis and intelligent content recommendations.
+profilumAI é um software que integra notas locais do Obsidian, fornecendo análises e insights para otimizar os estudos. Ele categoriza automaticamente as notas, organizando-as de forma estruturada. Além disso, permite a criação de flashcards para revisão espaçada e testes rápidos, ajudando os usuários a avaliar seu conhecimento e revisar seus conteúdos de forma muito mais eficiente.
