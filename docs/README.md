@@ -1,4 +1,4 @@
-# profilumAI
+# profiluum
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Fiber-009688?style=for-the-badge&logo=fiber&logoColor=white" alt="Fiber">
@@ -9,4 +9,4 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
 </p>
 
-profilumAI é um software desenvolvido para estudantes e pesquisadores que integra notas locais do Obsidian, fornecendo análises e insights para otimizar os estudos. Ele categoriza automaticamente as notas, organizando-as de forma estruturada. Além disso, permite a criação de flashcards para revisão espaçada e testes rápidos, ajudando os usuários a avaliar seu conhecimento e revisar seus conteúdos de forma muito mais eficiente.
+profiluum é um software desenvolvido para estudantes e pesquisadores que integra notas locais do Obsidian, fornecendo análises e insights para otimizar os estudos. Ele categoriza automaticamente as notas, organizando-as de forma estruturada. Além disso, permite a criação de flashcards para revisão espaçada e testes rápidos, ajudando os usuários a avaliar seu conhecimento e revisar seus conteúdos de forma muito mais eficiente.
