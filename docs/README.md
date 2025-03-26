@@ -1,4 +1,5 @@
-# profilumAI
+# revisu
+
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Fiber-009688?style=for-the-badge&logo=fiber&logoColor=white" alt="Fiber">
@@ -9,4 +10,4 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
 </p>
 
-ProfilumAI is a software that integrates with Obsidian to analyze and process the user's notes. It automatically categorizes recent notes, generates concise summaries, and creates flashcards for spaced repetition. The system will also provide an API for managing and processing notes, allowing users to configure folders and export insights. In the future, it may incorporate AI for semantic analysis and intelligent content recommendations.
+revisu é um software desenvolvido para estudantes e pesquisadores que integra notas locais do Obsidian, fornecendo análises e insights para otimizar os estudos. Ele categoriza automaticamente as notas, organizando-as de forma estruturada. Além disso, permite a criação de notas resumidas para revisões de memória espaçada e lembretes para revisitar os resumos das notas, ajudando os usuários a avaliar a memorização do conhecimento e revisar seus conteúdos de forma muito mais eficiente.
