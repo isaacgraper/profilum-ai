@@ -1,42 +1,31 @@
-### Functional Requirements
+## Requisitos Funcionais
 
-1. Integração com o Obsidian
+### Gerenciamento de Revisões
 
-   RF-01: O sistema deve permitir ao usuário definir a pasta raiz do Obsidian onde as notas (arquivos .md) estão armazenadas.
+RF01 – O sistema deve permitir que o usuário envie notas do Obsidian para análise.
 
-   RF-02: O sistema deve ser capaz de ler e processar os arquivos Markdown armazenados na pasta selecionada.
+RF02 – O sistema deve processar e categorizar automaticamente as notas enviadas, organizando por conteúdos dentro das notas.
 
-2. Processamento de Notas
+RF03 – O sistema deve gerar resumos organizados a partir das notas enviadas.
 
-   RF-03: O sistema deve identificar automaticamente títulos, subtítulos e trechos importantes dentro dos arquivos Markdown.
+RF04 – O usuário deve poder adicionar tags às revisões para facilitar a organização.
 
-   RF-04: O sistema deve ser capaz de sugerir perguntas e respostas com base no conteúdo das notas.
+RF05 – O sistema deve armazenar o histórico de revisões geradas.
 
-   RF-05: O usuário deve poder editar e confirmar as perguntas e respostas geradas antes da criação dos flashcards.
+### Memorização Espaçada & Notificações
 
-3. Geração e Gestão de Flashcards
+RF06 – O sistema deve calcular a próxima data de revisão com base na última interação.
 
-   RF-06: O sistema deve gerar flashcards a partir das perguntas e respostas extraídas das notas do Obsidian.
+RF07 – O sistema deve exibir notificações ao usuário quando houver revisões pendentes.
 
-   RF-07: O usuário deve poder visualizar, revisar e classificar os flashcards gerados como:
+RF08 – O usuário deve poder confirmar ou adiar uma revisão, ajustando o espaçamento.
 
-        "Aprendi" (intervalo de revisão aumentado).
+RF09 – O sistema deve sugerir novos prazos de revisão com base na memorização espaçada.
 
-        "Preciso revisar" (flashcard será repetido em um intervalo menor).
+RF10 - O usuário pode sugerir se uma revisão vai ser revisada posteriormente, ou não.
 
-   RF-08: O sistema deve permitir a exportação dos flashcards em formatos compatíveis com Anki (.apkg) e JSON/CSV.
+### Integração com IA Generativa
 
-4. Interface de Usuário
+RF11 – O sistema deve integrar-se com IA (ChatGPT ou Gemini) para gerar os resumos, com base em uma personalização do modelo para cada caso de uso.
 
-   RF-09: O sistema deve oferecer uma interface web simples para revisão dos flashcards.
-
-   RF-10: O sistema deve exibir um painel de estatísticas mostrando o progresso do usuário na memorização.
-
-   RF-11: O sistema deve permitir que o usuário configure intervalos de revisão conforme sua necessidade.
-
-5. Sincronização e Backup
-
-   RF-12: O sistema deve permitir que o usuário faça backup e restauração dos flashcards e progresso de revisão.
-
-   RF-13: O sistema deve permitir importar flashcards previamente criados.
-
+RF12 – O sistema deve permitir que o usuário refine ou edite os resumos gerados.

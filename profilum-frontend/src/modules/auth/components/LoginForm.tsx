@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
 import { supabase } from "@/lib/supabase"; // Certifique-se de que o arquivo supabase está corretamente configurado
 
 interface LoginFormProps {
@@ -12,7 +11,6 @@ interface LoginFormProps {
 const LoginForm = ({ onLogin, error }: LoginFormProps) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const router = useRouter();
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -23,13 +21,9 @@ const LoginForm = ({ onLogin, error }: LoginFormProps) => {
     const checkUser = async () => {
         const { data: user } = await supabase.auth.getUser();
         if (user) {
-            router.push("/resume");
+            console.log("user", user);
         }
     };
-
-    useEffect(() => {
-        checkUser();
-    }, [router]); // Agora está usando useEffect corretamente
 
     return (
         <div>
