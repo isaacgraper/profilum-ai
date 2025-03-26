@@ -12,7 +12,7 @@
 
 Revisu é um software desenvolvido para estudantes e pesquisadores que integra notas locais do Obsidian, fornecendo análises e insights para otimizar os estudos. Ele categoriza automaticamente as notas, organizando-as de forma estruturada. Além disso, permite a criação de notas resumidas para revisões de memória espaçada e lembretes para revisitar os resumos das notas, ajudando os usuários a avaliar a memorização do conhecimento e revisar seus conteúdos de forma muito mais eficiente.
 
-<img src="assets/apresentation-revisu.png" alt="Diagrama" width="500">
+<img src="assets/apresentation-revisu.png" alt="Diagrama" width="1920">
 
 Colabore dando ideias no fluxo de desenvolvimento dentro do link compartilhado no Figma!
 
