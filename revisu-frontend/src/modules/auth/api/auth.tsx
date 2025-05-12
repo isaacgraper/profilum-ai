@@ -1,5 +1,4 @@
-// modules/auth/api/auth.ts
-import { supabase } from '../../../lib/supabase';
+import { supabase } from '@/lib/db/supabase';
 
 export const loginUser = async (email: string, password: string) => {
     const { data, error } = await supabase.auth.signInWithPassword({

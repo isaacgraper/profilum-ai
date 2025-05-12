@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
+import { supabase } from "@/lib/db/supabase";
 import LoginForm from "../components/LoginForm";
 
 export default function LoginPage() {
@@ -13,11 +13,11 @@ export default function LoginPage() {
         const { error } = await supabase.auth.signInWithPassword({ email, password });
 
         if (error) {
-            setError("Email ou senha inválidos.");
+            setError("Email or password invalid.");
         } else {
-            window.location.href = "/resume";
+            window.location.href = "/upload";
         }
     };
 
-    return <LoginForm onLogin={handleLogin} error={error} />;
+    return <LoginForm onLogin={ handleLogin } error={ error } />;
 }

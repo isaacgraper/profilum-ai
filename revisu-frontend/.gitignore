@@ -19,6 +19,7 @@ yarn-error.log*
 .env.prod
 .env.dev
 .env.local
+.env
 
 # Obsidian
 .obsidian/
