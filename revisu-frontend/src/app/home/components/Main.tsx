@@ -1,3 +1,5 @@
+'use client'
+
 import Hero from "@/app/home/components/Hero";
 import Feature from "@/app/home/components/Feature";
 import UseCases from "@/app/home/components/UseCases";

@@ -1,3 +1,5 @@
+'use client'
+
 import Navbar from "@/app/home/components/Navbar";
 
 export default function Header() {
